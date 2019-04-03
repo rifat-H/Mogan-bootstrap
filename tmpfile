@@ -14,12 +14,13 @@ get pattern
 get sizes
 devide all section
 get fontawesome icons
-get fonts
 
 
 
 fonts
 ==============
+font-family: 'Open Sans', sans-serif;
+font-family: 'Abril Fatface', cursive;
 
 
 icons
