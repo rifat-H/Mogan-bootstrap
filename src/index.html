@@ -16,7 +16,6 @@
     <meta name='reply-to' content='admin@rhossain.me'>
     <!-- optional meta end -->
     <!-- fonts in fonts.scss-->
-    <link rel="stylesheet" href="dist/css/bundle.css">
 
     <title>Mogan Bootstrap</title>
 </head>
@@ -25,33 +24,65 @@
 
     <!-- header start -->
     <header>
-        <!-- nav start -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand">
+        <div class="container">
+            <!-- nav start -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand " href="#">
                     <img src="images/logo.png" class="img-fluid" alt="">
                 </a>
-                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="my-nav" class="collapse navbar-collapse">
+
+                <div class="collapse navbar-collapse mt-60 " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-        <!-- nav end -->
+            </nav>
 
-        <!-- banner start -->
-        <div class="banner"></div>
-        <!-- banner end -->
+
+            <!-- nav end -->
+
+            <!-- banner start -->
+            <div class="banner">
+                <div class="row">
+                    <div class="col-md-6 offset-md-5">
+                        <div class="banner-content">
+                            <p>Graphic & Web Designer</p>
+                            <h1>Mogan</h1>
+                            <h2>Michalvina</h2>
+                            <div class="row">
+                                <div class="col-md-4 offset-md-5 pr-0">
+                                    <button>Explore Me</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button>hire me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner end -->
+
+        </div>
     </header>
     <!-- header end -->
 
@@ -88,7 +119,7 @@
     <!-- footer end -->
 
     <!-- all -->
-    <script src="dist/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
