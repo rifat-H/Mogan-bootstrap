@@ -1,0 +1,85 @@
+$sans: 'Open Sans',
+sans-serif;
+$fat: 'Abril Fatface',
+cursive;
+$c1: #d6c6b2;
+$grey: #cccccc;
+$pd: 60px 0;
+
+
+// common css start
+body {
+    font-family: $sans;
+    font-size: 32px;
+}
+
+
+.hed {
+    font-family: $fat;
+    font-size: 20px;
+    color: $c1;
+}
+
+// common css end
+
+
+
+// <!-- header start -->
+header {
+    background: url('../../images/about-1.png');
+
+    //     <!-- nav start -->
+    //     <!-- nav end -->
+
+    //     <!-- banner start -->
+    .banner {}
+
+    //     <!-- banner end -->
+
+
+}
+// <!-- header end -->
+
+// <!-- about start -->
+.about {}
+
+// <!-- about end -->
+
+// <!-- services start -->
+.services {}
+
+// <!-- services end -->
+
+// <!-- portfolio start -->
+.portfolio {}
+
+// <!-- portfolio end -->
+
+// <!-- testimonial start -->
+.testimonial {}
+
+// <!-- testimonial end -->
+
+// <!-- pricing start -->
+.pricing {}
+
+// <!-- pricing end -->
+
+
+// <!-- blog start -->
+.blog {}
+
+// <!-- blog end -->
+
+
+// <!-- contact start -->
+.contact {}
+
+// <!-- contact end -->
+
+
+
+// footer start
+footer {}
+
+// footer end

@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-template",
+  "version": "3.0.0",
+  "description": "bootstrap template with parcel",
+  "main": "none",
+  "scripts": {
+    "dev": "parcel ./src/index.html --open -d ./dev",
+    "build": "parcel build ./src/index.html -d dist --public-url ./",
+    "clean": "rimraf .cache dist dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifat-H/Bootstrap-template.git"
+  },
+  "author": "Rifat Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rifat-H/Bootstrap-template/issues"
+  },
+  "homepage": "https://github.com/rifat-H/Bootstrap-template#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "*",
+    "autoprefixer": "*",
+    "cssnano": "*",
+    "parcel-bundler": "*",
+    "rimraf": "*",
+    "sass": "*"
+  }
+}
