@@ -9,11 +9,6 @@ add hover effect
 always comment
 check responsiveness
 do sections
-create common class
-get pattern
-get sizes
-get fontawesome icons
-
 
 
 fonts
@@ -24,4 +19,23 @@ font-family: 'Abril Fatface', cursive;
 
 icons
 ==============
-
+<i class="fab fa-fonticons-fi"></i>
+<i class="fab fa-envira"></i>
+<i class="fab fa-dribbble"></i>
+<i class="fab fa-youtube"></i>
+<i class="fas fa-arrow-left"></i>
+<i class="fas fa-arrow-right"></i>
+<i class="fas fa-link"></i>
+<i class="fas fa-user"></i>
+<i class="fas fa-thumbs-up"></i>
+<i class="fas fa-comments"></i>
+<i class="fas fa-share-alt"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-pinterest"></i>
+<i class="fab fa-behance"></i>
+<i class="fab fa-invision"></i>
+<i class="fas fa-envelope"></i>
+<i class="fas fa-map-marker-alt"></i>
+<i class="fas fa-location-arrow"></i>
+<i class="fas fa-globe"></i>
