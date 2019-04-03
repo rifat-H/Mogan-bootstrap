@@ -28,94 +28,15 @@ body {
 
 // <!-- header start -->
 header {
-    background: url(../images/banner.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
 
-    .mt-60 {
-        margin-top: -85px;
-    }
 
     //     <!-- nav start -->
-    nav {
-        ul {
-            li {
-                margin-left: 26px;
-
-                a {
-                    font-size: 20px;
-                    color: #ffffff !important;
-                    font-weight: 600;
-                    padding-top: 95px !important;
-                    transition: .3s;
-
-
-                    &:hover {
-                        background-color: #d6c6b2 !important;
-                        color: #222222 !important;
-                    }
-                }
-            }
-        }
-    }
-
+    
     //     <!-- nav end -->
 
     //     <!-- banner start -->
     .banner {
-        padding-top: 40px;
-        padding-bottom: 50px;
-
-        .banner-content {
-            text-align: right;
-
-            p {
-                font-size: 20px;
-                line-height: 24px;
-                color: #ffffff;
-                font-family: $fat;
-            }
-
-            h1 {
-                font-size: 102px;
-                line-height: 24px;
-                color: #ffffff;
-                font-family: $fat;
-                // text-align: center;
-                text-transform: uppercase;
-                margin-top: 40px;
-                margin-bottom: 65px;
-            }
-
-            h2 {
-                font-size: 85px;
-                line-height: 24px;
-                color: #ffffff;
-                font-family: $fat;
-                margin-bottom: 40px;
-            }
-
-            button {
-                font-size: 16px;
-                color: #d6c6b2;
-                font-family: $sans;
-                font-weight: 600;
-                border: none;
-                border: 1px solid #d6c6b2;
-                background: transparent;
-                text-transform: uppercase;
-                padding: 13px 20px;
-                transition: .3s;
-
-                &:hover {
-                    color: #222222;
-                    background-color: #d6c6b2;
-                }
-            }
-        }
     }
-
     //     <!-- banner end -->
 }
 
