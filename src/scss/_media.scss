@@ -4,20 +4,100 @@
 @media (max-width: 575.98px) {
 
     // header start
-    header{
-        .banner{
+    header {
         background-color: #000;
 
+        // nav start
+        nav {
+            ul {
+                li {
+                    text-align: center;
+                    margin: 0;
+
+                    a {
+                        padding: 10px !important;
+                    }
+                }
+            }
         }
+
+        // nav end
     }
+
     // header end
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    // header start
+    header {
+        background-color: #000;
+
+        // nav start
+        nav {
+            ul {
+                li {
+                    text-align: center;
+                    margin: 0;
+
+                    a {
+                        padding: 10px !important;
+                    }
+                }
+            }
+        }
+
+        // nav end
+    }
+
+    // header end// header start
+    header {
+        background-color: #000;
+
+        nav {
+            ul {
+                li {
+                    text-align: center;
+                    margin: 0;
+
+                    a {
+                        padding: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    // header end
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    // header start
+    header {
+        background-color: #000;
+
+        // nav start
+        nav {
+            ul {
+                li {
+                    text-align: center;
+                    margin: 0;
+
+                    a {
+                        padding: 10px !important;
+                    }
+                }
+            }
+        }
+
+        // nav end
+    }
+
+    // header end
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {}
