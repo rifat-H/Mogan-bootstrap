@@ -4,7 +4,7 @@ $fat: 'Abril Fatface',
 cursive;
 $c1: #d6c6b2;
 $grey: #cccccc;
-$pd: 60px 0;
+$pd: 70px 0;
 
 
 // common css start
@@ -16,7 +16,7 @@ body {
 
 .hed {
     font-family: $fat;
-    font-size: 20px;
+    font-size: 32px;
     color: $c1;
 }
 
@@ -108,7 +108,7 @@ header {
                 margin-left: 15px;
                 transition: .3s;
 
-                &:hover{
+                &:hover {
                     color: #222222;
                     background-color: #d6c6b2;
                 }
@@ -123,7 +123,52 @@ header {
 // <!-- header end -->
 
 // <!-- about start -->
-.about {}
+.about {
+    padding: $pd;
+    background-color: #222222;
+    ;
+
+    .about-content {
+        h1 {
+            margin-bottom: 50px;
+
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            font-size: 24px;
+            line-height: 24px;
+            color: #d6c6b2;
+            font-family: $fat;
+        }
+
+        ul {
+            margin-top: 35px;
+
+            li {
+                a {
+                    img {
+                        &:hover {
+                            // border: 1px solid white;
+                            // padding: 15px;
+                            // color: #ffffff;
+                            border-radius: 50%;
+                            background-color: #d6c6b2;
+                            // filter: grayscale(100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 // <!-- about end -->
 
