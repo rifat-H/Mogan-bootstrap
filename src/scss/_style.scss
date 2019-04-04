@@ -28,15 +28,37 @@ body {
 
 // <!-- header start -->
 header {
-
+    background-color: #000;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 
     //     <!-- nav start -->
-    
+    nav {
+        .navbar-brand {
+            padding-top: 10px;
+        }
+
+        ul {
+            li {
+                padding-left: 20px;
+                a {
+                    color: #ffffff !important;
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-family: $sans;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
     //     <!-- nav end -->
 
     //     <!-- banner start -->
-    .banner {
-    }
+    .banner {}
+
     //     <!-- banner end -->
 }
 
