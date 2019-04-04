@@ -173,7 +173,34 @@ header {
 // <!-- about end -->
 
 // <!-- services start -->
-.services {}
+.services {
+    padding: $pd;
+    background-image: radial-gradient(circle at center, #303139 0%, #151515 100%);
+    text-align: center;
+
+
+    .services-content {
+        margin-top: 50px;
+        img {}
+
+        h2 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #cccccc;
+            font-weight: 600;
+            text-align: justify;
+        }
+    }
+}
 
 // <!-- services end -->
 
