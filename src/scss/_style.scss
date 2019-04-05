@@ -298,7 +298,46 @@ header {
 // <!-- portfolio end -->
 
 // <!-- testimonial start -->
-.testimonial {}
+.testimonial {
+    padding: $pd;
+    background-image: url(../images/tb.jpg);
+    // background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .testimonial-content {
+        margin-top: 60px;
+        line-height: 24px;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: justify;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        h4 {
+            margin-top: 1px;
+            margin-bottom: 2px;           
+        }
+
+        // ul {
+        //     li {
+        //         font-size: 16px;
+        //     }
+        // }
+
+        p {
+            margin-top: 18px;
+            // font-size: 16px;
+            line-height: 20px;
+            // color: #ffffff;
+            // font-family: "Myriad Pro";
+        }
+    }
+}
 
 // <!-- testimonial end -->
 
