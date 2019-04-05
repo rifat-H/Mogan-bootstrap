@@ -181,6 +181,7 @@ header {
 
     .services-content {
         margin-top: 70px;
+
         img {}
 
         h2 {
@@ -205,7 +206,94 @@ header {
 // <!-- services end -->
 
 // <!-- portfolio start -->
-.portfolio {}
+.portfolio {
+    padding: $pd;
+    background-color: #282828;
+
+    .portfolio-content {
+        position: relative;
+
+        &:hover {
+            .overlay {
+                visibility: visible;
+                height: 100%;
+            }
+        }
+
+        .overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            background-color: #d6c6b2ce;
+            width: 100%;
+            transition: .3s;
+            height: 0%;
+            visibility: hidden;
+
+            a {
+                font-size: 20px;
+                color: #ffffff;
+                border-radius: 50%;
+                background-color: #444444;
+                padding: 10px;
+            }
+
+
+            .text {
+                position: absolute;
+                bottom: 14px;
+                left: 28%;
+                font-weight: 600;
+                color: #222222;
+                line-height: 24px;
+                text-align: center;
+
+                p {
+                    font-size: 20px;
+                }
+
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .port-menu {
+        >a {
+            font-size: 32px;
+            line-height: 24px;
+            color: #d6c6b2;
+            font-family: $fat;
+            display: block;
+            margin-bottom: 60px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        >ul {
+            li {
+                margin: 20px 0;
+
+                a {
+                    font-size: 20px;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-family: $sans;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: #d6c6b2;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 // <!-- portfolio end -->
 

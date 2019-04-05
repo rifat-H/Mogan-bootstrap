@@ -5,10 +5,11 @@
 
     // <!-- about start -->
     .about {
-        .about-content{
+        .about-content {
             text-align: center;
-            ul{
-                li{
+
+            ul {
+                li {
                     margin: 0;
                 }
             }
@@ -71,10 +72,10 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    
+
     // <!-- about start -->
     .about {
-        .about-content{
+        .about-content {
             text-align: center;
         }
     }
