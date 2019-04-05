@@ -3,6 +3,15 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- testimonial start -->
+    .testimonial {
+        .testimonial-content {
+            text-align: center;
+        }
+    }
+
+    // <!-- testimonial end -->
+
     // <!-- portfolio start -->
     .portfolio {
         .port-menu {
