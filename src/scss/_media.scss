@@ -296,6 +296,76 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    // <!-- blog start -->
+
+    .blog {
+        .blog-description-head {
+            h1 {
+                text-align: center;
+                padding: 37px;
+                margin: 0;
+            }
+
+            p {
+                display: none;
+            }
+
+        }
+
+        .blog-description-top {
+            // display:none;
+            // height: 100%
+            padding: 0;
+
+            p {
+                display: none;
+            }
+
+            ul {
+                display: none;
+            }
+
+        }
+
+        .right-blog {
+            img {
+                width: 100%;
+            }
+
+            .right-blog-description {
+                text-align: center;
+
+                p {
+                    // margin-bottom: 10px;
+                    display: none;
+                }
+
+                ul {
+                    // text-align: center;
+                    display: none;
+                }
+
+                .blog-description-title {
+                    h1 {
+                        margin: 48px 0;
+                        // line-height: 25px;
+                        // font-size: 16px;
+                    }
+
+                    // p {
+                    //     margin-bottom: 0;
+                    // }
+                }
+            }
+        }
+
+        .blog-description-footer {
+            display: none;
+        }
+    }
+
+    // <!-- blog end -->
+
     // <!-- testimonial start -->
     .testimonial {
         .testimonial-content {
