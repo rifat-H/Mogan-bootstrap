@@ -499,7 +499,7 @@ header {
     .blog-description-top {
         background-color: #282828;
         padding: 25px;
-        
+
 
         p {
             font-size: 14px !important;
@@ -543,6 +543,7 @@ header {
             line-height: 24px;
             color: #ffffff;
             font-weight: 600;
+            text-decoration: none;
 
             svg {
                 padding-top: 1px;
@@ -600,6 +601,7 @@ header {
 
                 a {
                     color: #222222;
+                    text-decoration: none;
                 }
             }
         }
@@ -631,7 +633,66 @@ header {
 
 
 // <!-- contact start -->
-.contact {}
+.contact {
+    padding: $pd;
+    background-color: #282828;
+
+    .contact-touch {
+
+        h2 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: $fat;
+            margin-bottom: 30px;
+        }
+
+
+
+        >a {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #cccccc;
+            display: block;
+            transition: .3s;
+            text-decoration: none;
+
+            &:nth-child(4n) {
+                margin-bottom: 60px;
+            }
+
+            &:hover{
+                color: #d6c6b2;
+            }
+        }
+    }
+
+    .touch-social {
+        ul {
+            margin-left: -20px;
+            li {
+                a {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                   transition: .3s;
+
+                    &:hover{
+                        background-color: #d6c6b2;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
 
 // <!-- contact end -->
 
