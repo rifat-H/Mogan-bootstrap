@@ -3,6 +3,55 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- blog start -->
+
+    .blog {
+        .blog-description-top {
+
+            p {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                text-align: center;
+            }
+        }
+
+        .right-blog {
+            img {
+                width: 100%;
+            }
+
+            .right-blog-description {
+                text-align: center;
+
+                p {
+                    margin-bottom: 10px;
+                }
+
+                ul {
+                    text-align: center;
+                }
+
+                .blog-description-title {
+                    h1 {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        line-height: 25px;
+                        font-size: 16px;
+                    }
+                    p{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    // <!-- blog end -->
+
+
     // <!-- testimonial start -->
     .testimonial {
         .testimonial-content {

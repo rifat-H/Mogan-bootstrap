@@ -499,6 +499,7 @@ header {
     .blog-description-top {
         background-color: #282828;
         padding: 25px;
+        
 
         p {
             font-size: 14px !important;
@@ -507,6 +508,7 @@ header {
 
         ul {
             margin-top: -17px;
+            text-align: right;
 
             li {
                 font-size: 14px !important;
@@ -566,6 +568,7 @@ header {
 
             ul {
                 margin-top: -17px;
+                text-align: right;
 
                 li {
                     font-size: 14px !important;
@@ -623,8 +626,6 @@ header {
     }
 
 }
-
-
 
 // <!-- blog end -->
 
