@@ -206,6 +206,8 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+
     // <!-- blog start -->
 
     .blog {
@@ -339,6 +341,27 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+        // <!-- contact start -->
+        .contact {
+            .contact-touch{
+                >a {
+                    font-size: 14px;
+                }
+
+                .touch-social{
+                    ul{
+                        li{
+                            a{
+                                width: 30px;
+                                height: 30px; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // <!-- contact end -->
 
     // <!-- blog start -->
 
