@@ -737,6 +737,11 @@ header {
             border-bottom: 60px solid #d6c6b2;
             border-left: 60px solid transparent;
 
+            &:hover{
+                cursor: pointer;
+            }
+
+
             svg {
                 position: absolute;
                 top: 28px;
