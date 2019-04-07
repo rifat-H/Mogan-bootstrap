@@ -661,35 +661,89 @@ header {
                 margin-bottom: 60px;
             }
 
-            &:hover{
+            &:hover {
                 color: #d6c6b2;
+            }
+        }
+
+        .touch-social {
+            ul {
+                margin-left: -20px;
+
+                li {
+                    a {
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #ffffff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        transition: .3s;
+
+                        &:hover {
+                            background-color: #d6c6b2;
+                        }
+
+                    }
+                }
             }
         }
     }
 
-    .touch-social {
-        ul {
-            margin-left: -20px;
-            li {
-                a {
-                    font-size: 20px;
-                    line-height: 24px;
-                    color: #ffffff;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                   transition: .3s;
+    .contact-form {
+        padding: 30px;
+        background-color: #333333;
 
-                    &:hover{
-                        background-color: #d6c6b2;
-                    }
+        h2 {
+            // @extend .contact-touch;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
 
-                }
+        input {
+            width: 100%;
+            border: 1px solid #666666;
+            background-color: transparent;
+            font-size: 14px;
+            color: #666666;
+            font-style: italic;
+            padding: 10px;
+           
+            &:focus{
+                border-color: #d6c6b2;
+            }
+
+        }
+
+
+        textarea{
+            position: relative;
+            @extend input;
+            height: 126px;
+        }
+        .icon{
+            position: absolute;
+            bottom: 5px;
+            right: 16px;
+            width: 0;
+            height: 0;
+            border-bottom: 60px solid #d6c6b2;
+            border-left: 60px solid transparent;
+
+            svg{
+                position: absolute;
+                top: 28px;
+                right: 8px;
+                font-size: 27px;
             }
         }
+
     }
 
 }
