@@ -1,10 +1,4 @@
-$sans: 'Open Sans',
-sans-serif;
-$fat: 'Abril Fatface',
-cursive;
-$c1: #d6c6b2;
-$grey: #cccccc;
-$pd: 70px 0;
+
 
 
 // common css start
@@ -56,7 +50,7 @@ header {
                     transition: .3s;
 
                     &:hover {
-                        background-color: #d6c6b2;
+                        background-color: $c1;
                         color: #222222 !important;
                     }
                 }
@@ -98,11 +92,11 @@ header {
             button {
                 font-size: 16px;
                 line-height: 24px;
-                color: #d6c6b2;
+                color: $c1;
                 font-family: $sans;
                 font-weight: 600;
                 background: transparent;
-                border: 1px solid #d6c6b2;
+                border: 1px solid $c1;
                 padding: 9px 20px;
                 text-transform: uppercase;
                 margin-left: 15px;
@@ -110,7 +104,7 @@ header {
 
                 &:hover {
                     color: #222222;
-                    background-color: #d6c6b2;
+                    background-color: $c1;
                 }
             }
 
@@ -145,7 +139,7 @@ header {
             margin-top: 15px;
             font-size: 24px;
             line-height: 24px;
-            color: #d6c6b2;
+            color: $c1;
             font-family: $fat;
         }
 
@@ -160,7 +154,7 @@ header {
                             // padding: 15px;
                             // color: #ffffff;
                             border-radius: 50%;
-                            background-color: #d6c6b2;
+                            background-color: $c1;
                             // filter: grayscale(100%);
                         }
                     }
@@ -182,7 +176,7 @@ header {
     .services-content {
         margin-top: 70px;
 
-        img {}
+        // img {}
 
         h2 {
             font-size: 20px;
@@ -196,7 +190,7 @@ header {
         p {
             font-size: 14px;
             line-height: 24px;
-            color: #cccccc;
+            color: $grey;
             font-weight: 600;
             text-align: justify;
         }
@@ -227,7 +221,7 @@ header {
             flex-direction: column;
             position: absolute;
             top: 0;
-            background-color: #d6c6b2ce;
+            background-color: $c1;
             width: 100%;
             transition: .3s;
             height: 0%;
@@ -266,7 +260,7 @@ header {
         h2 {
             font-size: 32px;
             line-height: 24px;
-            color: #d6c6b2;
+            color: $c1;
             font-family: $fat;
             display: block;
             margin-bottom: 60px;
@@ -286,7 +280,7 @@ header {
                     font-weight: 600;
 
                     &:hover {
-                        color: #d6c6b2;
+                        color: $c1;
                         margin-left: 20px;
                     }
                 }
@@ -353,18 +347,14 @@ header {
             font-size: 20px;
             color: #222222;
             font-weight: 700;
-            background-color: #d6c6b2;
+            background-color: $c1;
         }
 
         .card {
 
-            .shd {
-                // box-shadow: 0 0 15px rgba(214,198,178,0.5);
-
-            }
-
+            
             .premium {
-                background-color: #d6c6b2 !important;
+                background-color: $c1 !important;
                 color: #222222 !important;
 
                 button {
@@ -372,7 +362,7 @@ header {
                     border: none !important;
                     box-shadow: 0 0 7px 0.1px black;
 
-                    &:hover {}
+                    // &:hover {}
                 }
             }
 
@@ -401,7 +391,7 @@ header {
                 hr {
                     width: 75%;
                     height: .5px;
-                    background-color: #d6c6b2;
+                    background-color: $c1;
                 }
 
                 ul {
@@ -422,8 +412,8 @@ header {
                     color: #ffffff;
 
                     &:hover {
-                        border-color: #d6c6b2;
-                        background-color: #d6c6b2;
+                        border-color: $c1;
+                        background-color: $c1;
                         color: #222222;
                     }
                 }
@@ -450,13 +440,13 @@ header {
 
             .blog-description-head {
                 h1 {
-                    color: #d6c6b2;
+                    color: $c1;
                 }
             }
 
             .blog-description-footer {
                 a {
-                    color: #d6c6b2;
+                    color: $c1;
                 }
             }
 
@@ -532,7 +522,7 @@ header {
         p {
             font-size: 14px;
             line-height: 24px;
-            color: #cccccc;
+            color: $grey;
             margin-bottom: 10px;
         }
     }
@@ -558,7 +548,7 @@ header {
         }
 
         .right-blog-description {
-            background-color: #d6c6b2;
+            background-color: $c1;
             padding: 25px;
 
 
@@ -613,7 +603,7 @@ header {
 
         button {
             text-transform: uppercase;
-            background-color: #d6c6b2;
+            background-color: $c1;
             color: #222222;
             font-weight: 600;
             font-size: 16px;
@@ -622,7 +612,7 @@ header {
 
             &:hover {
                 background-color: #222222;
-                color: #d6c6b2;
+                color: $c1;
             }
         }
     }
@@ -652,7 +642,7 @@ header {
         >a {
             font-size: 18px;
             margin-bottom: 20px;
-            color: #cccccc;
+            color: $grey;
             display: block;
             transition: .3s;
             text-decoration: none;
@@ -662,7 +652,7 @@ header {
             }
 
             &:hover {
-                color: #d6c6b2;
+                color: $c1;
             }
         }
 
@@ -684,7 +674,7 @@ header {
                         transition: .3s;
 
                         &:hover {
-                            background-color: #d6c6b2;
+                            background-color: $c1;
                         }
 
                     }
@@ -716,7 +706,7 @@ header {
             padding: 10px;
 
             &:focus {
-                border-color: #d6c6b2;
+                border-color: $c1;
             }
 
         }
@@ -734,7 +724,7 @@ header {
             right: 16px;
             width: 0;
             height: 0;
-            border-bottom: 60px solid #d6c6b2;
+            border-bottom: 60px solid $c1;
             border-left: 60px solid transparent;
 
             &:hover{
@@ -767,10 +757,10 @@ footer {
     p {
         font-size: 14px;
         line-height: 24px;
-        color: #cccccc;
+        color: $grey;
 
         a{
-            color: #d6c6b2;
+            color: $c1;
         }
     }
 }
