@@ -714,20 +714,21 @@ header {
             color: #666666;
             font-style: italic;
             padding: 10px;
-           
-            &:focus{
+
+            &:focus {
                 border-color: #d6c6b2;
             }
 
         }
 
 
-        textarea{
+        textarea {
             position: relative;
             @extend input;
             height: 126px;
         }
-        .icon{
+
+        .icon {
             position: absolute;
             bottom: 5px;
             right: 16px;
@@ -736,7 +737,7 @@ header {
             border-bottom: 60px solid #d6c6b2;
             border-left: 60px solid transparent;
 
-            svg{
+            svg {
                 position: absolute;
                 top: 28px;
                 right: 8px;
@@ -753,6 +754,20 @@ header {
 
 
 // footer start
-footer {}
+footer {
+    padding: 20px;
+    background-color: #333333;
+    text-align: center;
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #cccccc;
+
+        a{
+            color: #d6c6b2;
+        }
+    }
+}
 
 // footer end
